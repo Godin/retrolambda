@@ -84,9 +84,29 @@
             <!-- Bytecode Manipulation -->
 
             <dependency>
-                <groupId>org.ow2.asm</groupId>
-                <artifactId>asm-debug-all</artifactId>
-                <version>5.2</version>
+              <groupId>org.ow2.asm</groupId>
+              <artifactId>asm</artifactId>
+              <version>6.2.1</version>
+            </dependency>
+            <dependency>
+              <groupId>org.ow2.asm</groupId>
+              <artifactId>asm-commons</artifactId>
+              <version>6.2.1</version>
+            </dependency>
+            <dependency>
+              <groupId>org.ow2.asm</groupId>
+              <artifactId>asm-tree</artifactId>
+              <version>6.2.1</version>
+            </dependency>
+            <dependency>
+              <groupId>org.ow2.asm</groupId>
+              <artifactId>asm-analysis</artifactId>
+              <version>6.2.1</version>
+            </dependency>
+            <dependency>
+              <groupId>org.ow2.asm</groupId>
+              <artifactId>asm-util</artifactId>
+              <version>6.2.1</version>
             </dependency>
 
             <dependency>
@@ -312,7 +332,7 @@
 
                 <plugin>
                     <artifactId>maven-plugin-plugin</artifactId>
-                    <version>3.4</version>
+                    <version>3.5</version>
                 </plugin>
 
                 <plugin>

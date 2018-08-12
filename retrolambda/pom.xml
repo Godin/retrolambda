@@ -22,8 +22,24 @@
         </dependency>
 
         <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm-debug-all</artifactId>
+          <groupId>org.ow2.asm</groupId>
+          <artifactId>asm</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.ow2.asm</groupId>
+          <artifactId>asm-commons</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.ow2.asm</groupId>
+          <artifactId>asm-tree</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.ow2.asm</groupId>
+          <artifactId>asm-analysis</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.ow2.asm</groupId>
+          <artifactId>asm-util</artifactId>
         </dependency>
 
         <dependency>
@@ -85,7 +101,7 @@
                     </relocations>
                     <filters>
                         <filter>
-                            <artifact>org.ow2.asm:asm-debug-all</artifact>
+                            <artifact>org.ow2.asm:*</artifact>
                             <excludes>
                                 <exclude>**/*.html</exclude>
                                 <exclude>**/*.dtd</exclude>
